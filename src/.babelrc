@@ -1,0 +1,9 @@
+{
+  "presets": ["babel-preset-expo"],
+  "env": {
+  "test": { "presets": ["react-app"] }
+    "development": {
+      "plugins": ["transform-react-jsx-source"]
+    }
+  }
+}
